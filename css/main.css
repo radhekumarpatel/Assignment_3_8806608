@@ -1,0 +1,228 @@
+/* Global styles */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  border: 2px solid #000; /* Update the border to 2px and change color to black */
+  font-family: Arial, sans-serif;
+  background-color: #ADD8E6; /* Light blue background color for the body */
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://www.gujarattourism.com/content/dam/gujrattourism/images/religious-sites/dwarkadhish-temple/Dwarkadhish-Temple-Banner.jpg);
+  background-size: 110% 110%;
+  background-position: center;
+  padding: 120px;
+  margin-bottom: 40px;
+  color: black;
+  text-align: center;
+  background-color: #fff;
+  font-size: 30px;
+  text-shadow: 6px 6px 5px white; /* Add white text shadow to create a white border */
+  position: relative; /* Add position relative to allow positioning the logo */
+}
+
+header img {
+  max-width: 200px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+header h1 {
+  flex: 1;
+  color: black;
+  padding: 20px;
+  background-size: cover;
+  margin: 0;
+}
+
+/* Set the logo image to top-left side */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f9e9b4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #555;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+}
+
+aside {
+  width: 30%; /* Reduce the width to 30% */
+  margin-right: 20px;
+  color: black;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+aside h2 {
+  font-size: 24px;
+  color: black;
+}
+
+/* Other styles for the links inside the aside element */
+aside a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #3498db;
+}
+
+h2 {
+  color: black;
+}
+
+figure {
+  max-width: 100%; /* Set the maximum width to 100% */
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Paragraph length styles */
+.short {
+  border: 1px solid #e74c3c;
+}
+
+.medium {
+  border: 2px solid #f39c12;
+}
+
+.long {
+  border: 3px solid #2ecc71;
+}
+
+/* Contact form styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000; /* Black color for the legend */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #222; /* Dark gray color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px; /* Increased padding for better appearance */
+  border: 2px solid #ccc; /* Thicker border for input fields */
+  border-radius: 5px; /* Rounded corners for input fields */
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #111; /* Darker color for input text */
+  background-color: #fff; /* White background for input fields */
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #2980b9; /* Dark blue color for the submit button */
+  color: #fff;
+  padding: 12px 24px; /* Increased padding for buttons */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px; /* Larger font size for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0056b3; /* Even darker blue color on hover */
+}
+
+/* Custom styles for specific input fields */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #666; /* Light gray placeholder text color */
+}
+
+/* Custom styles for the submit button */
+input[type="submit"] {
+  width: 100%; /* Make the submit button full width */
+  margin-bottom: 20px; /* Add some bottom margin to separate it from the form */
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://www.gujarattourism.com/content/dam/gujrattourism/images/religious-sites/dwarkadhish-temple/Dwarkadhish-Temple-Banner.jpg);
+  background-size: 110% 110%;
+  background-position: center;
+  padding: 120px;
+  color: black;
+  text-align: center;
+  background-color: #fff;
+  font-size: 30px;
+}
