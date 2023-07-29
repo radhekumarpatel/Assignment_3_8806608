@@ -1,0 +1,90 @@
+<!-- name: Radhekumar Sanjaybhai Patel -->
+<!-- email: rpatel6608@conestogac.on.ca -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Dhwarika</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+
+  <header style="text-align: center;">
+    <!-- Header with the title and logo -->
+    <h1>Welcome to Dwarkadhish Temple-Gujarat</h1>
+    <div class="logo">
+      <img src="https://www.newspost.live/wp-content/uploads/2018/03/Gujarat-Tourism.png" alt="Tourism Gujarat Logo">
+    </div>
+  </header>
+      
+  <nav>
+    <!-- Navigation links -->
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+    
+  <main>
+    <h2>Book Your Visit Today</h2>
+    <br>
+    <form action="submit_form.php" method="POST" autocomplete="on">
+      <fieldset>
+        <!-- Personal Information Section -->
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required autofocus>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="employment">Employment Status:</label>
+        <select id="employment" name="employment" required>
+          <!-- Dropdown options for employment status -->
+          <option value="">Select Option</option>
+          <option value="student">Student</option>
+          <option value="full-time">Employed Full-time</option>
+          <option value="part-time">Employed Part-time</option>
+          <option value="retired">Retired</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <!-- How did you hear about our site? Section -->
+        <legend>How did you hear about our site?</legend>
+        <label><input type="radio" name="source" value="social-media"> Social Media</label>
+        <label><input type="radio" name="source" value="friend"> Friend</label>
+        <label><input type="radio" name="source" value="search-engine"> Search Engine</label>
+        <label><input type="radio" name="source" value="other"> Other</label>
+      </fieldset>
+
+      <fieldset>
+        <!-- Tell Us What You Think! Section -->
+        <legend>Tell Us What You Think!</legend>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <!-- Submit Section -->
+        <legend>Submit</legend>
+        <label><input type="checkbox" name="robot" required> I am not a robot</label>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </fieldset>
+      <!-- Closing the form tag -->
+    </form>
+  </main>
+    
+  <footer>
+    <!-- Footer information -->
+    <p>&copy; 2023 Radhekumar Patel - Student Number: 8806608</p>
+  </footer>
+    
+</body>
+</html>
